@@ -3,19 +3,21 @@
   <head>
     <meta charset="utf-8">
     <title>Jacob A. Geller</title>
-    <h1>This is an h1 in the head</h1>
+    <link href="{{site.baseurl}}/css/common.css" rel="stylesheet">
   </head>
 
   <body>
     <header>
-      <h2>This is an h2 in the header</h2>
-      <nav>
-        <ul>
-          <li><a href="{{site.baseurl}}/index.html">Home</a></li>
-          <li><a href="{{site.baseurl}}/about.html">About</a></li>
-        </ul>
-      </nav>
+      <h1>Jacob Aaron Geller</h1>
+        {% include nav.html %}
     </header>
+
     {{content}}
+
+    <footer>
+      <p>© 2016 Jacob Aaron Geller
+      {% include nav.html %}
+    </footer>
+
   </body>
 </html>
