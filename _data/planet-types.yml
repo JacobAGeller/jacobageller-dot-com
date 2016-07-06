@@ -1,0 +1,11 @@
+- title: Dwarf
+  folder: dwarf
+  content: 'A **dwarf planet** is a tiny little planet.'
+
+- title: Terrestrial
+  folder: terrestrial
+  content: 'A **terrestrial planet** is a planet like Earth.'
+
+- title: Gas Giant
+  folder: gas-giant
+  content: 'A **gas giant** is a planet like Earth.'

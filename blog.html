@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<h2>Blog</h2>
+
+<ul>
+  {% for blogpost in site.categories.published limit: 10 %}
+  <li>
+    <a href="{{site.baseurl}}{{blogpost.url}}">{{blogpost.title}}</a>
+    <p>{{blogpost.meta}}</p>
+  </li>
+    {% endfor %}
+</ul>

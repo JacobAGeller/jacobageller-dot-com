@@ -4,6 +4,10 @@ html {
   padding: 0;
   font: normal 100%/1.4 Georgia,serif;
 }
+body {
+  margin: 0;
+  padding: 0;
+}
 
 /* Styles for all navigation menus */
 .current {
@@ -18,7 +22,12 @@ html {
 nav > ul > li > a {
   position: relative;
   padding: 10px 15px;
+  border-radius: 10px;
 }
+.nav-top {
+  font-size: 1.25em;
+}
+.nav-bottom {}
 /* */
 
 /* STYLES... */

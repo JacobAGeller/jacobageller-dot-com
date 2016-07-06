@@ -1,0 +1,10 @@
+<ul>
+  {% for page in site.pages %}
+    {% if page.type == include.type %}
+      <li>
+        <img src="{{site.baseurl}}/images/thai-alphabet/{{page.image}}" alt="">
+        {{page.title}}
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
