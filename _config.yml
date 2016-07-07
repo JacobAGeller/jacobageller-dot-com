@@ -1,3 +1,3 @@
-markdown: redcarpet
+markdown: kramdown
 baseurl: /jacobageller-dot-com
 exclude: ['README.md']
